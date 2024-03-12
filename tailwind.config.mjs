@@ -6,6 +6,7 @@ export default {
 			colors: {
 				'primary': '#7EDAD2',
 				'secondary': '#424241',
+				'third': '#909090',
 			},
 			fontFamily: {
 				bebas: ['Bebas Neue', 'cursive'],
