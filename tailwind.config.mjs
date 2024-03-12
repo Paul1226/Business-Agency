@@ -2,7 +2,15 @@
 export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				'primary': '#7EDAD2',
+				'secondary': '#424241',
+			},
+			fontFamily: {
+				bebas: ['Bebas Neue', 'cursive'],
+			},
+		},
 	},
 	plugins: [],
 }
