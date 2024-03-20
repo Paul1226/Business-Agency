@@ -3,10 +3,10 @@ const {titleCard} = Astro.props
 const {textCard} = Astro.props
 ---
 
-<article class="rounded-xl p-4 flex flex-col gap-3 transition-shadow duration-300 linear hover:shadow-boxs hover:cursor-pointer bg-white">
+<article class="rounded-xl p-4 flex flex-col gap-3 transition-shadow duration-300 linear hover:shadow-boxs hover:cursor-pointer bg-white hover:bg-gradientCard group">
     <figure>
         <slot />
     </figure>
-    <h3 class="font-poppins text-xl font-semibold">{titleCard}</h3>
-    <p class="text-sm text-pretty text-third">{textCard}</p>
+    <h3 class="font-poppins text-xl font-semibold text-monteCario-950">{titleCard}</h3>
+    <p class="text-sm text-pretty text-monteCario-900 group-hover:text-monteCario-50">{textCard}</p>
 </article>
