@@ -9,7 +9,9 @@ En esta practica de proyecto practicaremos como se hace el maquetado de una pagi
 - [✔] Hacer que el favicon se adapte tambien a una posible version oscura.
 - [✔] Empezar proyecto por su versión mobile.
 - [✔] Ir adaptando para disposito: tablet, desktop.
-- [_] Mejorar el header en una rama diferente para no modificar la rama principal de la página.
+- [✔] Mejorar el header en una rama diferente para no modificar la rama principal de la página.
+- [_] En Tablet hasta desktop, se debe cambiar el color del borde inferior a celeste al hacer scroll.
+- [_] Se podría hacer alguna animación en el border.
 ...
 
 ## Tools
