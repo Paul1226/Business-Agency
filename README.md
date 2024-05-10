@@ -12,6 +12,11 @@ En esta practica de proyecto practicaremos como se hace el maquetado de una pagi
 - [✔] Mejorar el header en una rama diferente para no modificar la rama principal de la página.
 - [_] En Tablet hasta desktop, se debe cambiar el color del borde inferior a celeste al hacer scroll.
 - [_] Se podría hacer alguna animación en el border.
+
+### Dentro del hero
+- [_] Buscar la manera en que la imagen del hero no se vea recoratada.
+- [_] Optimizar la imagen principal del hero.
+
 ...
 
 ## Tools
