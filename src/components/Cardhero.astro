@@ -1,0 +1,14 @@
+---
+interface Props {
+  title: string;
+  text: string;
+}
+const { title, text } = Astro.props;
+---
+
+<article
+  class="min-w-max w-[85px] rounded-sm flex flex-col items-center transition-shadow duration-300 ease-linear p-3 hover:[box-shadow:0_0_10px_rgba(0,0,0,0.1)]"
+>
+  <h2 class="text-3xl text-monteCario-950">{title}</h2>
+  <p class="text-monteCario-900 w-min text-center text-xs">{text}</p>
+</article>
