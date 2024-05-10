@@ -24,6 +24,7 @@ export default {
       },
       gridTemplateColumns: {
         "4s": "repeat(auto-fill, minmax(250px, 1fr))",
+        "2p":"1fr 1.2fr"
       },
       boxShadow: {
         boxs: "0 0 10px 6px #90909020",
