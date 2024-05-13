@@ -16,6 +16,8 @@ En esta practica de proyecto practicaremos como se hace el maquetado de una pagi
 ### Dentro del hero
 - [✔] Buscar la manera en que la imagen del hero no se vea recoratada.
 - [_] Optimizar la imagen principal del hero.
+- [_] Dentro del contenido textual del hero las cards se podrían corregir los parrafos en una sola línea.
+- [_] El título puede ser un poco mas pequeño en la version desktop (1280px).
 
 ...
 
