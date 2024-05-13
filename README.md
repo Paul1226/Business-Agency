@@ -14,7 +14,7 @@ En esta practica de proyecto practicaremos como se hace el maquetado de una pagi
 - [_] Se podría hacer alguna animación en el border.
 
 ### Dentro del hero
-- [_] Buscar la manera en que la imagen del hero no se vea recoratada.
+- [✔] Buscar la manera en que la imagen del hero no se vea recoratada.
 - [_] Optimizar la imagen principal del hero.
 
 ...
