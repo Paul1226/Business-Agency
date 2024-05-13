@@ -2,9 +2,9 @@
 import Cardhero from "../components/Cardhero.astro"
 ---
 
-<section class="grid grid-cols-1 md:grid-cols-2p items-center gap-y-4 md:gap-0">
+<section class="grid grid-cols-1 md:grid-cols-2p items-center gap-y-4 md:h-[500px] lg:max-h-[430px]">
   <div class="w-10/12 mx-auto pt-2 flex flex-col gap-y-4 md:mr-0">
-    <h1 class="font-bebas text-5xl md:text-6xl md:w-[130%] text-balance lg:text-7xl xl:text-[5rem] text-monteCario-950 relative z-[1]">
+    <h1 class="font-bebas text-5xl md:w-[130%] text-balance lg:text-7xl text-monteCario-950 relative z-[1]">
       <span class="text-monteCario-300">Smart </span>Business with <span
         class="text-monteCario-300">Smart</span
       > People
@@ -22,34 +22,11 @@ import Cardhero from "../components/Cardhero.astro"
       <Cardhero title="263" text="Business Partners" />
     </div>
   </div>
-  <figure class="bg-monteCario-300 w-10/12 mx-auto flex justify-center md:justify-start rounded-xl md:w-full md:aspect-auto md:rounded-none md:h-full relative overflow-hidden z-0 md:pt-24">
+  <figure class="bg-monteCario-300 w-10/12 h-full mx-auto rounded-xl flex items-end md:w-full md:rounded-none">
     <img 
-      class="w-full max-w-[450px] aspect-[1/1] h-full object-fill relative z-[0]" 
-      src="./public/womanhero.png" 
+      class="w-full h-full max-h-[480px] object-contain" 
+      src="./public/herowm.png" 
       alt="Imagen principal de la pagina" 
       />
   </figure>
 </section>
-
-<style>
-  figure::before, figure::after{
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 50%;
-    left: 50%;
-    transform-origin: top left;
-    transform: translate(-50%, -50%);
-    rotate: 45deg;
-    width: 70%;
-    max-width: 400px;
-    aspect-ratio: 1/1;
-    border-radius: 1rem;
-    border: 1rem solid #ffffff20;
-    @apply lg:left-[37%] lg:top-[60%];
-  }
-  figure::after{
-    width: 50%;
-    max-width: 320px;
-  }
-</style>
